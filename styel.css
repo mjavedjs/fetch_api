@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+    font-size: 1.5rem;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.formData {
+    text-align: center;
+    margin: 20px;
+}
+
+.formData h2 {
+    margin:50px;
+    font-weight: 500;
+    color: #333;
+}
+
+.formData input[type="text"] {
+    padding: 10px;
+    border-radius: 5px;
+    width: 60%;
+    max-width: 400px;
+    border: 1px solid #ccc;
+    font-size: 1.2rem;
+    margin-right: 10px;
+}
+
+.formData button {
+    padding: 12px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.2rem;
+    width: 50%;
+    max-width: 200px;
+    transition: background-color 0.3s ease;
+}
+
+.formData button:hover {
+    background-color: #45a049;
+}
+
+/* Card Styles */
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+}
+
+.card {
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 20px;
+    width: 300px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+}
+
+.card img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.card-content {
+    text-align: center;
+}
+
+.card-content h1 {
+    margin-top: 10px;
+    font-size: 1.5rem;
+    color: #333;
+}
+
+.delete-btn {
+    background-color: #e74c3c;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.delete-btn:hover {
+    background-color: #c0392b;
+}
+
